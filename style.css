@@ -180,6 +180,10 @@ Hero Section End
     top: -70px;
     left: -55px;
 }
+.experience-btn:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 
 /*===============================
  Section 4 Start
