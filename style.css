@@ -329,17 +329,13 @@ footer{
     max-width: 100%;
     margin: 160px auto 22px;
     text-align: center;
-    padding: 7px;
+    padding: 29px;
     background-color: #ffefdb;
     color: #404040;
     font-size: 17px;
     word-spacing: 2px;
     line-height: 30px;
 }
-.line-break{
-    display: block;
-}
-
 
 
 
