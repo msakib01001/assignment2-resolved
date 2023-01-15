@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.hero{
+    background-color: #ffefdb;
+}
+.bar{
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 1300px;
+    margin: auto;
+    padding: 34px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li, a{
+    list-style-type: none;
+    padding-left: 39px;
+    text-decoration: none;
+    color: #404040;
+    font-size: 18px;
+}
+
+/*=============================
+Nav End
+===============================*/
+.hero-section{
+    width: 1200px;
+    max-width: 100%;
+    margin: 69px auto;
+    padding-bottom: 49px;
+}
+.hero-title{
+    text-align: center;
+    font-size: 49px;
+    line-height: 75px;
+    color: #313131;
+}
+.hero-description{
+    text-align: center;
+    font-size: 17px;
+    color: #606060;
+    width: 65%;
+    margin: 30px auto;
+    line-height: 29px;
+}
+.explore-btn{
+    border: none;
+    border-radius: 4px;
+    padding: 15px 28px;
+    background-color: #FF900E;
+    color: #fff;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+.explore{
+    text-align: center;
+}
+/*==============================
+Hero Section End 
+================================*/
+.teams img{
+    width: 280px;
+    height: 280px;
+}
+
+.section2{
+    width: 72%;
+    margin: 20px auto;
+    display: flex;
+    gap: 90px;
+}
+.teams{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr
+    );
+    grid-gap: 20px;
+}
+.section2{
+    align-items: center;
+}
+.section2-title{
+    font-size: 40px;
+    line-height: 52px;
+    color: #727272;
+}
+.black-title{
+    color: #000;
+}
+.orange-title{
+    color: #FF900E;
+}
+.section2-description{
+    font-size: 17px;
+    color: #606060;
+    margin: 30px auto;
+    line-height: 29px;
+}
+.explore-more{
+    border: none;
+    display: block;
+    border-radius: 4px;
+    padding: 16px 28px;
+    margin-top: 30px;
+    background-color: #FF900E;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*===============================
+ Section 3 Start 
+=================================*/
+.section3{
+    width: 73%;
+    margin: 90px auto;
+    gap: 70px;
+    justify-content: space-between;
+    display: flex;
+}
+.section3 img{
+    width: 100%;
+    height: 90%;
+}
+.section3-content{
+    width: 780px;
+    padding: 0 19px 20px 20px;
+}
+.section3-title{
+    font-size: 40px;
+    line-height: 50px;
+    padding-left: 16px;
+    border-left: 7px solid #FF900E;
+    color: #313131;
+}
+.criteria{
+    padding: 8px 16px;
+    background-color: #fff;
+    box-shadow: 5px 6px 10px 6px
+     rgba(234, 234, 234, 0.7);
+     margin-top: 20px;
+}
+.criteria-title{
+    color: #404040;
+}
+.criteria-description{
+    font-size: 17px;
+    color: #606060;
+    line-height: 25px;
+    padding-top: 14px
+}
+.big{
+    display: block;
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 13px;
+}
+.small{
+    font-size: 19px;
+    color: #fff;
+}
+.experience-btn{
+    padding: 20px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    top: -70px;
+    left: -55px;
+}
+
+/*===============================
+ Section 4 Start
+=================================*/
+.section4{
+    margin-left: 240px;
+    width: 40%;
+}
+.section4-title{
+    font-size: 32px;
+    line-height: 54px;
+    color: #565656;
+}
+.section4-description{
+    font-size: 19px;
+    line-height: 28px;
+    color: #6d6d6d;
+}
+
+/*===============================
+ Section 5 Start
+=================================*/
+.section5 img{
+    height: 40px;
+    width: 40px;
+}
+.section5{
+    width: 1100px;
+    margin: 86px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 100px;
+}
+.achieve{
+    justify-content: center;
+    text-align: center;
+    border: 4px solid #FF900E;
+    border-radius: 4px;
+    padding: 30px 0;
+    cursor: pointer;
+}
+.achieve p{
+    font-size: 17px;
+    color: #5e5e5e;
+}
+.achieve h2{
+    color: #4d4d4d;
+}
+.achieve:hover{
+    background-color:#fff1df; 
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+
+/*===============================
+ Section 6 Start
+=================================*/
+.Registration{
+    text-align: center;
+    font-size: 40px;
+    color: #FF900E;
+    padding-top: 90px 16px;
+}
+.Registrations{
+    width: 1200px;
+    margin: 60px auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+}
+.registration{
+    background-color: #ffd9ad;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.registration:hover{
+    background-color:#fff1df; 
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.registration h3{
+    font-size: 30px;
+    text-align: center;
+    color: #313131;
+    padding:40px 10px 34px 10px;
+}
+i, .info, .sponsors-description{
+    color: #606060;
+    font-size: 18px;
+    line-height: 30px;
+}
+.prices{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 26px;
+    color: #404040;
+    padding: 26px 0;
+}
+.del{
+    text-decoration: line-through;
+    text-decoration-thickness: 0.2rem;
+}
+.offer{
+    text-align: center;
+    font-size: 33px;
+    color: #FF900E;
+}
+
+
+/*===============================
+ Section 7 Start
+=================================*/
+
+.sponsors-content{
+    width: 650px;
+    margin: 120px auto 45px;
+    text-align: center;
+}
+.sponsors-title{
+    font-size: 40px;
+    color: #313131;
+    padding-bottom: 20px;
+}
+.company img{
+    width: 120px;
+    height: 40px;
+}
+.company{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 1290px;
+    margin: 0 auto 49px;
+}
+
+
+
+/*===============================
+Footer Start
+=================================*/
+
+footer{
+    width: 1390px;
+    max-width: 100%;
+    margin: 160px auto 22px;
+    text-align: center;
+    padding: 7px;
+    background-color: #ffefdb;
+    color: #404040;
+    font-size: 17px;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+.line-break{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------- 
+ Responsive
+ --------------------------*/
+ @media screen and (max-width:976px) {
+    nav ul, li{
+        display: block; 
+        margin-bottom: 30px ;
+    }
+    .hero-section{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .hero-title, .Registration {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .hero-description{
+        width: 100%;
+    }
+    .section2{
+        width: 95%;
+        flex-direction: column;
+    }
+    .teams img{
+        width: 180px;
+        height: 180px;
+    }
+    .section3{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .section3 img{
+        width: 95%;
+        height: 95%;
+        margin-left: 10px;
+    }
+    .section3-content{
+        width: 100%;
+        padding-right: 18px;
+    }
+    .section4{
+        width: 100%;
+        margin: -110px 0;
+        padding: 0px 18px;
+    }
+    .section4-title{
+        font-size: 25px;
+    }
+    .experience-btn{
+        padding: 10px;
+        top: -45px;
+        left: 3px;
+    }
+    .big{
+        font-size: 28px;
+    }
+    .achieve{
+        padding: 16px 0;
+    }
+    .section5{
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        padding-top: 90px;
+    }
+    .achieve h2{
+        font-size: 22px;
+    }
+    .Registrations{
+        width: 75%;
+        grid-template-columns: 1fr;
+    }
+    .sponsors-title, .offer{
+        font-size: 20px;
+    }
+    .sponsors-content{
+        width: 95%;
+    }
+    .company img{
+        width: 80px;
+        height: 20px;
+    }
+    .company{
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 30px;
+        grid-gap: 20px;
+    }
+    .line-break{
+        display: inline-block;
+    }
+    footer{
+        margin: 96px auto 0px;
+        padding: 0;
+        font-size: 14px;
+    }
+}
